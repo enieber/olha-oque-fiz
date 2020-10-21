@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Reason Blog`,
-    author: `Mukul Rathi`,
-    description: `A starter blog demonstrating what Reason and Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `Olha oque eu fiz`,
+    author: `Enieber Cunha`,
+    description: `Este esa.`,
+    siteUrl: `https://enieber.vercel.app/`,
     social: {
-      twitter: `mukulrathi_`,
+      twitter: `enieber`,
+      github: `enieber`,
     },
   },
   plugins: [
@@ -69,7 +70,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/logo.png`,
       },
     },
     `gatsby-plugin-react-helmet`,

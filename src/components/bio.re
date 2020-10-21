@@ -22,9 +22,9 @@ let make = () => {
         {|
           graphql`
     query BioQuery {
-      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+      avatar: file(absolutePath: { regex: "/profile.jpg/" }) {
         childImageSharp {
-          fixed(width: 50, height: 50) {
+          fixed(width: 80, height: 60) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -62,14 +62,12 @@ let make = () => {
       imgStyle={ReactDOMRe.Style.make(~borderRadius="50%", ())}
     />
     <p>
-      {React.string("Written by ")}
+      {"Escrito por "->React.string}
       <strong> author </strong>
-      {React.string(" who ")}
-      <a href="https://mukulrathi.com/blog"> {React.string("blogs")} </a>
-      {React.string(" about the things he's
-        making. ")}
-      <a href={"https://twitter.com/" ++ social##twitter}>
-        {React.string("You should follow him on Twitter")}
+      {", aprendendo Reason ml e Elixir. "->React.string}
+      {{j|Veja  algumas coisas que faço no |j}->React.string}
+      <a href={"https://github.com/" ++ social##twitter}>
+        {React.string("meu github")}
       </a>
     </p>
   </div>;

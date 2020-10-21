@@ -80,7 +80,9 @@ let make = (~location: locationType, ~title, ~children) => {
     <main> children </main>
     <footer>
       {React.string("Built with ")}
-      <a href="https://www.gatsbyjs.org"> {React.string("Gatsby")} </a>
+      <a href="https://www.gatsbyjs.org"> {React.string("Gatsby ")} </a>
+      {React.string("Using the ")}
+      <a href="https://github.com/mukul-rathi/gatsby-starter-reason-blog">{React.string("ReasonML template")}</a>
     </footer>
   </div>;
 };
