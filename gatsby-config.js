@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Olha oque eu fiz`,
     author: `Enieber Cunha`,
-    description: `Este esa.`,
+    description: `Um blog com alguns posts descrevendo como fiz.`,
     siteUrl: `https://enieber.vercel.app/`,
     social: {
       twitter: `enieber`,
