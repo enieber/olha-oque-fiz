@@ -4,12 +4,12 @@ date: "2020-11-04T00:00:00.000Z"
 description: "Vamos criar uma api basica de ocaml usando opium"
 ---
 
-Estou estudando ReasonML a algum tempo e para me aprofundar na liguagem resolvir escrever uma api, graças a uma live feita pelo EduardoRFS na Twitch 
-explicando passo a passo como criar uma api usando Opium, resolvi o livecode e criar uma api e no caminho escrever um post sobre o processo.
+Estou estudando ReasonML a algum tempo e para me aprofundar na liguagem resolvir escrever uma api usando Opium. Graças a uma live feita pelo EduardoRFS na Twitch 
+explicando passo a passo como criar uma api em Reasonml, resolvi rever o livecode e criar uma api e documentar o processo.
 
-## Para começar
+## Ferramentas usadas
 
-Para começar vamos detalhar as ferramentas usadas para criar a api:
+Para começar vamos detalhar as ferramentas usadas para criar a api: Reasonml, Opium, esy e dune.
 
 ### reasonml
 
@@ -29,3 +29,8 @@ reason/ocaml.
 ### dune
 
 O [dune](https://dune.build/) é usado para compilar executaveis, bibliotecas, rodar teste e muito mais para reason/ocaml que se assemelha ao webpack do nodejs
+
+## Criando a estrutura do projeto
+
+Um conselho dado pelo Eduardo é usar um template pronto, porem para aprendermos os detalhes do processo vamos criar uma estrutura do projeto com base no projeto que
+o Eduardo criou. Para isso vamos precisar criar:
