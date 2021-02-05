@@ -1,8 +1,7 @@
 ---
 title: Serviços Livres
 date: "2021-02-21T00:00:00.000Z"
-description: 
-"Uma breve discução sobre como podemos evoluir software livres para serviços livres."
+description: "Uma breve discução sobre como podemos evoluir software livres para serviços livres."
 ---
 
 # Software Livre precisa evoluir
