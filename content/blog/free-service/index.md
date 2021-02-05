@@ -1,10 +1,8 @@
 ---
-title: Serviços Livres
+title: Software Livre precisa evoluir
 date: "2021-02-21T00:00:00.000Z"
-description: "Uma breve discução sobre como podemos evoluir software livres para serviços livres."
+description: "Uma breve discussão sobre como podemos evoluir software livres para serviços livres."
 ---
-
-# Software Livre precisa evoluir
 
 Nos últimos anos tenho me envolvido muito com softwares livres comunidades em volta. 
 
@@ -25,18 +23,16 @@ Apos varias discussões sobre o assunto passando por diversos temas relacionado,
 
 Para que possamos discutir melhor uma implementação de serviços livres podemos começar com algumas sugestões de uso como:
 
-	- Transparência em como os dados  dos usuários estão sendo usados 
-	- Troca de serviços deve ocorrer sem a necessidade gerenciamento por uma empresa
-	- O lucro dos serviços deve ser repassado para os usuários e desenvolvedores dos mesmo para manter assim os serviços por mais tempo possível e garantir o melhor desenvolvimento.
-	- Os serviços pode ser usados da forma com que os usuário se sentirem mais livre o possível.
-	
+- Transparência em como os dados  dos usuários estão sendo usados 
+- Troca de serviços deve ocorrer sem a necessidade gerenciamento por uma empresa
+- O lucro dos serviços deve ser repassado para os usuários e desenvolvedores dos mesmo para manter assim os serviços por mais tempo possível e garantir o melhor desenvolvimento.
+- Os serviços pode ser usados da forma com que os usuário se sentirem mais livre o possível.
 
 Isso parece meio distante porem já existes serviços livres ou parcialmente livres tais como:
 
-	- [Libreflix](https://libreflix.org/) (streaming livre)
-	- [Open Street Maps](https://www.openstreetmap.org/) (mapa livre)
-	- [Libregit](https://libregit.org/)
-	
+- [Libreflix](https://libreflix.org/) (streaming livre)
+- [Open Street Maps](https://www.openstreetmap.org/) (mapa livre)
+- [Libregit](https://libregit.org/)
 
 
 ## Continua...
