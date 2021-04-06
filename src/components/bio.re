@@ -66,8 +66,8 @@ let make = () => {
       <strong> author </strong>
       {", aprendendo Reason ml e Elixir. "->React.string}
       {{j|Veja  algumas coisas que faço no |j}->React.string}
-      <a href={"https://github.com/" ++ social##twitter}>
-        {React.string("meu github")}
+      <a href={"https://enieber.com.br/"}>
+        {React.string("meu site")}
       </a>
     </p>
   </div>;

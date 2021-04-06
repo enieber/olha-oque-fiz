@@ -3,9 +3,8 @@ module.exports = {
     title: `Olha oque eu fiz`,
     author: `Enieber Cunha`,
     description: `Um blog com alguns posts descrevendo como fiz.`,
-    siteUrl: `https://enieber.vercel.app/`,
+    siteUrl: `https://blog.enieber.com.br/`,
     social: {
-      twitter: `enieber`,
       github: `enieber`,
     },
   },
