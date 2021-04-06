@@ -32,9 +32,6 @@ let make = () => {
       site {
         siteMetadata {
           author
-          social {
-            twitter
-          }
         }
       }
     }
@@ -42,7 +39,6 @@ let make = () => {
       ],
     );
   let author = data##site##siteMetadata##author;
-  let social = data##site##siteMetadata##social;
   <div
     style={
       ReactDOMRe.Style.make(~display="flex", ~marginBottom=rhythm(2.5), ())
