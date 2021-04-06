@@ -11,7 +11,7 @@ Para fazermos precisamos de uma receita:
 
 ## pronto!!
 
-#SQN nem tudo é um passe de magica, para isso me baseei em um video sobre Nodejs e socket.io.
+SQN nem tudo é um passe de magica, para isso me baseei em um video sobre Nodejs e socket.io.
 
 Primeiro eu criei uma imagem baseada no node:alpine por ser uma das imagens mais portaveis de docker:
 
