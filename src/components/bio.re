@@ -22,7 +22,7 @@ let make = () => {
         {|
           graphql`
     query BioQuery {
-      avatar: file(absolutePath: { regex: "/profile.jpg/" }) {
+      avatar: file(absolutePath: { regex: "/logo-primary.png/" }) {
         childImageSharp {
           fixed(width: 80, height: 60) {
             ...GatsbyImageSharpFixed
