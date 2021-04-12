@@ -51,7 +51,7 @@
     "url": "git+https://github.com/mukul-rathi/gatsby-starter-reason-blog.git"
   },
   "scripts": {
-    "build": "bsb -make-world && gatsby build",
+    "build": "bsb -make-world && gatsby telemetry --disable && gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
