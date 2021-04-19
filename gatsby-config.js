@@ -30,6 +30,9 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-feed`
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
