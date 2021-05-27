@@ -18,7 +18,7 @@ description: "Nesse guia que escrevi para me auxiliar como fazer o uso do git de
 
 ### configurando servidor externo
 adicionando novo servidor
-> git remote add nome-de-atalho banche 
+> git remote add nome-de-atalho branche 
 
 
 ## adicionar alteração
@@ -31,7 +31,7 @@ adicionando novo servidor
 > git checkout -b nome-do-branch
 
 ## excluir branch 
-> git banch -d nome-do-branch
+> git branch -d nome-do-branch
 
 ## mesclar
 > git merge nome-do-branch-que-vou-unificar
