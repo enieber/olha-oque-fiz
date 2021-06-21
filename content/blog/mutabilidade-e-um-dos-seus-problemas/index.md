@@ -2,6 +2,7 @@
 title: Mutabilidade e um de seus problemas
 date: "2017-04-12T00:00:00.000Z"
 description: "Quando você está programando Orientado a Objeto e não aplica alguns principios como SOLID você pode ter alguns problemas que são não existiria se você estiver usando imutabilidade."
+tags: ["functional-programming", "programação funcional", "oop", "discussão"]
 ---
 
 Quando você está programando Orientado a Objeto e não aplica alguns principios como SOLID você pode ter alguns problemas que são não existiria se você estiver usando imutabilidade.

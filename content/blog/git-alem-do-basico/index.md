@@ -2,6 +2,7 @@
 title: Git alem do básico
 date: "2018-04-18T00:00:00.000Z"
 description: "Nesse guia que escrevi para me auxiliar como fazer o uso do git descrevo alguns comandos e o que eles faze."
+tags: ["tip", "git", "learn", "develop"]
 ---
 
 # git

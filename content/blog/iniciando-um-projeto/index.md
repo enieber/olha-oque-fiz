@@ -2,6 +2,7 @@
 title: Iniciando um Projeto
 date: "2015-11-18T00:00:00.000Z"
 description: "Quando está se inciando um projeto, seja ele grande ou pequeno, não importa se você tem 15 dias, ou 15 semanas, o importante é você entregar algo de valor."
+tags: ["develop", "git", "ci", "cd", "discussão"]
 ---
 
 Esse valor será tanto para seu cliente que contratou o seu serviço, quanto para você, pois se o projeto der certo você ganhara a confiança do seu cliente e você sera recomendado a novos clientes.

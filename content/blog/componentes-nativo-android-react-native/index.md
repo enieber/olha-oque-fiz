@@ -2,6 +2,7 @@
 title: Componente Android nativo rodando em react-native (1/2)
 date: "2018-01-18T00:00:00.000Z"
 description: "Para começarmos a escrever um módulo nativo é necessário primeiro entender como funciona os módulos nativo no react-native."
+tags: ["react-native", "android", "native-module", "js"]
 ---
 
 Para um melhor entendimento decidi dividir este tutorial em duas etapas a primeira vou falar um pouco de como funciona as coisas por baixo dos panos e a segunda vai ser como fazer

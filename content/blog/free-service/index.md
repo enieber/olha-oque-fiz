@@ -2,6 +2,7 @@
 title: Software Livre precisa evoluir
 date: "2021-02-21T00:00:00.000Z"
 description: "Uma breve discussão sobre como podemos evoluir software livres para serviços livres."
+tags: ["software-livre", "descussão", "free-servevice", "free-software"]
 ---
 
 Nos últimos anos tenho me envolvido muito com softwares livres comunidades em volta. 

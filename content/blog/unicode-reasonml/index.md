@@ -2,6 +2,7 @@
 title: Unicode e acentuação em ReasonML
 date: "2020-07-19T00:00:00.000Z"
 description: "Quando estava escrevendo este blog me deparei com um problema, ao tentar renderizar o texto Formação, pois só tinha visto esse problema quando o tipo do arquivo não é UTF-8, porem não era esse o caso, pois o arquivo estáva com a formatação correta."
+tags: ["reasonml", "utf-8", "unicode", "learn"] 
 ---
 
 Quando estava escrevendo este blog me deparei com o seguinte problema, ao 

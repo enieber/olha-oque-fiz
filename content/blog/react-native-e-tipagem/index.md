@@ -2,6 +2,7 @@
 title: React Native e tipagem
 date: "2018-12-31T00:00:00.000Z"
 description: "Recentemente comecei a testar algumas alternativas para escrever aplicativos de fácil manutenção e documentação com menor número de erros possíveis com react-native usando tipagem."
+tags: ["react-native", "tipagem", "typescript", "prop-types", "reasonml"]
 ---
 
 Recentemente comecei a testar algumas alternativas para escrever aplicativos de fácil manutenção e documentação com menor número de erros possíveis com react-native usando tipagem.

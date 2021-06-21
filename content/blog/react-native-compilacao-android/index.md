@@ -2,6 +2,7 @@
 title: Agilizando a compilação para Android usando react-native com alias
 date: "2018-09-21T00:00:00.000Z"
 description: "Quando comecei a desenvolver em React Native tive muitos problemas com o cache do android, tanto o cache das libs quanto o cache gerado do próprio projeto."
+tags: ["android", "react-native", "compilação", "tools"]
 ---
 
 Quando comecei a desenvolver em React Native tive muitos problemas com o cache do android, tanto o cache das libs quanto o cache gerado do próprio projeto. Para fazer uma compilação simples tinha que ficar removendo pastas e verificando respostas a erros de cache no stackoverflow.

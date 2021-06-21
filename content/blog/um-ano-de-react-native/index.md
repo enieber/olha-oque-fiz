@@ -2,6 +2,7 @@
 title: Um ano de React Native
 date: "2018-06-06T00:00:00.000Z"
 description: "Em 2017 precisei fazer um app multiplataforma e a linguagem que eu conhecia bem era js. Então procurei ferramentas que pudesse me auxiliar na criação desse app e algumas que encontrei foram."
+tags: ["react-native", "learn", "dicussão"]
 ---
 
 Em 2017 precisei fazer um app multiplataforma e a linguagem que eu conhecia bem era js. Então procurei ferramentas que pudesse me auxiliar na criação desse app e algumas que encontrei foram.

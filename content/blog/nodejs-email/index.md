@@ -2,6 +2,7 @@
 title: Nodejs e email
 date: "2020-07-22T00:00:00.000Z"
 description: "Um amigo havia me passado um trabalho para fazer que era tecnicamente simples, pegar uma lista de email e criar um texto com esses email e enviar. Algo simples né? E até foi, até a hora de enviar o email de fato."
+tags: ["nodejs", "js", "email", "fila"]
 ---
 
 

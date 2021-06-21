@@ -52,6 +52,7 @@
   },
   "scripts": {
     "build": "bsb -make-world && gatsby telemetry --disable && gatsby build",
+    "re:watch": "bsb -make-world -w",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",

@@ -2,6 +2,7 @@
 title: Por que comecei a estudar Reason ML
 date: "2018-11-25T00:00:00.000Z"
 description: "Desde que comecei a programar a algum tempinho, já passei por diversas linguagens múlti paradigmas e só orientadas a objetos."
+tags: ["reasonml", "reason", "learn", "discussão", "programação funcional"]
 ---
 
 Desde que comecei a programar a algum tempinho, já passei por diversas linguagens múlti paradigmas e só orientadas a objetos. Hoje trabalho com JS e gosto muito da sua versatilidade e portabilidade, mas sentia muita falta de um compilador para diminuir erros simples.
