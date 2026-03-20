@@ -16,9 +16,9 @@ No final de 2024 comecei uma saga de migração de dados do WordPress para Ghost
 
 ## Criando um CLI Rust para exportar site WordPress via JSON
 
-Para resolver esse problema, criei uma ferramenta que se conectava com o banco de dados do WordPress, processava as informações, transformava em JSON para enviar para uma API padronizada. Tive que fazer alguns tratamentos de imagens e outras formatações no WordPress que não trabalham com um HTML puro. Além de exportar os dados de posts com formatação de HTML, também exportava as tags e autores. Essa ferramenta evoluiu a ponto de se tornar um CLI feito com Clap para exportar os dados na sequência desejada. Para mais informações sobre essa parte do export de WordPress, basta acessar o GitHub do projeto.
+Para resolver esse problema, criei uma ferramenta que se conectava com o banco de dados do WordPress, processava as informações, transformava em JSON para enviar para uma API padronizada. Tive que fazer alguns tratamentos de imagens e outras formatações no WordPress que não trabalham com um HTML puro. Além de exportar os dados de posts com formatação de HTML, também exportava as tags e autores. Essa ferramenta evoluiu a ponto de se tornar um CLI feito com [Clap](https://docs.rs/clap/latest/clap/) para exportar os dados na sequência desejada. Para mais informações sobre essa parte do export de WordPress, basta acessar o GitHub do projeto.
 
-https://github.com/popsolutions/export-wp
+[export-wp](https://github.com/popsolutions/export-wp)
 
 ## Recebimento do site WordPress via API
 
@@ -28,7 +28,7 @@ Como a ideia inicial era usar a API do próprio Ghost e importar todos os dados 
 
 Ao final, foi possível exportar e importar os mais de 2k posts em alguns segundos sem travar nada do lado do WordPress e nem do Ghost, além de fazer o tratamento de maneira consistente dos dados. Caso queira acessar a parte da API feita para importar os dados via API para o Ghost:
 
-https://github.com/popsolutions/import-wp
+[import-wp](https://github.com/popsolutions/import-wp)
 
 Esse processo abre possibilidades de receber qualquer tipo de post via API sem depender de onde venha.
 
