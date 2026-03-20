@@ -1,0 +1,37 @@
+---
+title: Exportando dados do WordPress para Ghost
+date: 2026-03-20T00:00:00.000Z
+description: No final de 2024 comecei uma saga de migração de dados do WordPress para Ghost que me trouxe alguns desafios que consegui resolver com ajuda do rust
+thumbnailUrl: /posts/thumbnail/worpress-page.jpg
+tags: ['rust', 'axum', 'clap', 'pt-br']
+---
+
+![imagem do site](posts/thumbnail/worpress-page.jpg)
+
+# Exportando dados do WordPress para Ghost
+
+No final de 2024 comecei uma saga de migração de dados do WordPress para Ghost que me trouxe alguns desafios, como lidar com concorrência, paralelismo, envio de múltiplos arquivos, entre outros problemas que uma migração de um site com mais de 2k posts do WordPress exige.
+
+À primeira vista, existiam ferramentas no próprio Ghost que faziam essa exportação e depois era só importar para dentro do Ghost. Fiz os primeiros testes e o resultado foi o travamento total. A ferramenta de migração foi planejada para rodar com poucos posts, pois era preciso instalar um plugin WordPress, exportar os dados em arquivo e importar depois dentro do Ghost. No meu cenário, onde a quantidade de posts era muito grande — mais de 2k posts —, o módulo travava e não conseguia exportar de maneira consistente. Tentei algumas outras formas de fazer isso até de fato chegar à necessidade de criar uma ferramenta que exportasse esses dados de maneira parcial.
+
+## Criando um CLI Rust para exportar site WordPress via JSON
+
+Para resolver esse problema, criei uma ferramenta que se conectava com o banco de dados do WordPress, processava as informações, transformava em JSON para enviar para uma API padronizada. Tive que fazer alguns tratamentos de imagens e outras formatações no WordPress que não trabalham com um HTML puro. Além de exportar os dados de posts com formatação de HTML, também exportava as tags e autores. Essa ferramenta evoluiu a ponto de se tornar um CLI feito com Clap para exportar os dados na sequência desejada. Para mais informações sobre essa parte do export de WordPress, basta acessar o GitHub do projeto.
+
+https://github.com/popsolutions/export-wp
+
+## Recebimento do site WordPress via API
+
+Como a ideia inicial era usar a API do próprio Ghost e importar todos os dados de maneira mais rápida, iniciei tentando procurar formas de fazer isso, procurando no código do próprio Ghost e até tentando implementar um import na API do Ghost, o que se provou um processo improdutivo, já que a API do Ghost foi projetada apenas para leitura desses dados. Precisei seguir por um outro caminho. Tive que criar uma API que receberia as informações de posts, tags e autores, transformava no padrão aceitável pelo Ghost e salvava no banco de dados. Além do básico que toda API deveria ter, foi implementado um sistema básico de token para importar as informações enquanto a API rodava.
+
+## Resultados
+
+Ao final, foi possível exportar e importar os mais de 2k posts em alguns segundos sem travar nada do lado do WordPress e nem do Ghost, além de fazer o tratamento de maneira consistente dos dados. Caso queira acessar a parte da API feita para importar os dados via API para o Ghost:
+
+https://github.com/popsolutions/import-wp
+
+Esse processo abre possibilidades de receber qualquer tipo de post via API sem depender de onde venha.
+
+## Limitações
+
+Apesar de inicialmente fazer o envio das imagens via API, o envio de outros arquivos como áudios e vídeos fez com que o processo de envio de arquivos fosse feito por fora desse sistema, já que ferramentas mais simples e consistentes como rsync fazem um ótimo trabalho.
