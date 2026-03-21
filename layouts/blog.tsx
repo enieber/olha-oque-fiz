@@ -26,7 +26,7 @@ function BlogLayout({ post }) {
           },
           images: [
             {
-              url: `${meta.url}${post.thumbnailUrl}`,
+              url: `${post.thumbnailUrl}`,
               width: 850,
               height: 650,
               alt: post.title,
