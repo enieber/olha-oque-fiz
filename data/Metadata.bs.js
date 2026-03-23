@@ -2,7 +2,7 @@
 
 
 var meta = {
-  url: "https://miryang.dev",
+  url: "https://olha-oque-fiz.vercel.app",
   title: "Enieber | Software Engineer",
   description: "Functional Programing try decentralize world"
 };

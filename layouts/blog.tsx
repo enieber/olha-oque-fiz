@@ -1,15 +1,16 @@
-import MDXPost from '../components/MDXPost'
-import { useMDXComponent } from 'next-contentlayer/hooks'
-import {meta} from '../data/Metadata.bs'
-import Container from '../components/Container'
-import { NextSeo } from 'next-seo'
+import MDXPost from '../components/MDXPost';
+import { useMDXComponent } from 'next-contentlayer/hooks';
+import { meta } from '../data/Metadata.bs';
+import Container from '../components/Container';
+import { NextSeo } from 'next-seo';
 
 const BlankLink = (props: any) => {
-  return <a target="_blank" rel="noopener noreferrer" {...props} />
-}
+  return <a target="_blank" rel="noopener noreferrer" {...props} />;
+};
 
 function BlogLayout({ post }) {
-  const MDXComponent = useMDXComponent(post.body.code)
+  const MDXComponent = useMDXComponent(post.body.code);
+  const thumbnailUrl = `${meta.url}${post.thumbnailUrl}`;
 
   return (
     <Container>
@@ -22,29 +23,29 @@ function BlogLayout({ post }) {
           url: `${meta.url}/blog/${post.slug}`,
           article: {
             publishedTime: new Date(post.date).toISOString(),
-            tags: [...post.tags, 'Develop'],
+            tags: [...post.tags, 'Develop']
           },
           images: [
             {
-              url: `/${post.thumbnailUrl}`,
+              url: thumbnailUrl,
               width: 850,
               height: 650,
-              alt: post.title,
-            },
-          ],
+              alt: post.title
+            }
+          ]
         }}
       />
       <MDXPost title={post.title} date={post.date}>
         <MDXComponent
           components={
             {
-              a: BlankLink,
+              a: BlankLink
             } as any
           }
         />
       </MDXPost>
     </Container>
-  )
+  );
 }
 
-export default BlogLayout
+export default BlogLayout;
