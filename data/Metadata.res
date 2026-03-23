@@ -1,6 +1,6 @@
 let repo = "https://github.com/enieber/olha-oque-fiz"
 let meta = {
-  "url": "https://miryang.dev",
+  url: "https://olha-oque-fiz.vercel.app",
   "title": "Enieber | Software Engineer",
   "description": "Functional Programing try decentralize world",
 }
@@ -18,4 +18,3 @@ let social = {
   // "instagram": "",
   "rss": "https://olha-oque-fiz.vercel.app/feed.xml",
 }
-
